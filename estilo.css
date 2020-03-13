@@ -88,6 +88,7 @@ body{
 }
 .nosfull{
     display: flex;
+    padding-bottom: 5%;
 }
 .serv{
     display: flex;
