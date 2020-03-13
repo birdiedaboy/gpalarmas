@@ -70,3 +70,53 @@ body{
     justify-content: center;
     padding: 1%;
 }
+.flex{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.nos{
+    display: flex;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 2%
+    
+}
+.nosimg{
+    width: 50%;
+}
+.nosfull{
+    display: flex;
+}
+.serv{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+.servicio{
+    height: 15rem;
+    width: 24%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    
+}
+main{
+      position: relative;
+      z-index: 1;
+    background: white;
+}
+footer {
+  /* place on the bottom */
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  background: #252a47;
+  display: grid;
+  place-items: end;
+  padding: 50px;
+    z-index: -1;
+}
