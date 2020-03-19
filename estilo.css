@@ -188,7 +188,8 @@ main{
 .desc{
     display: flex;
     justify-content: center;
-    padding-bottom: 5%;
+    box-sizing: border-box;
+    padding: 5%;
 }
 .hogardesp{
     width: 100%;
