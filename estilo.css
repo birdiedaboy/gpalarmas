@@ -1,3 +1,47 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
@@ -59,6 +103,12 @@
 
 body{
     margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    padding: 2%;
 }
 .hero{
     width: 100%;
@@ -78,42 +128,102 @@ body{
 }
 .nos{
     display: flex;
-    width: 50%;
+    max-width: 50%;
     box-sizing: border-box;
-    padding: 2%
+    padding: 2%;
+    flex-direction: column;
     
 }
 .nosimg{
     width: 50%;
+    padding: 2.5%;
 }
 .nosfull{
     display: flex;
     padding-bottom: 5%;
+    align-items: center;
+    
 }
 .serv{
     display: flex;
     justify-content: space-around;
     padding-bottom: 5%;
+    max-width: 100vw;
+    flex-wrap: wrap;
+}
+.link{
+    min-width: 21%;
 }
 .servicio{
-    height: 15rem;
-    width: 24%;
+    height: 30rem;
+    min-width: 21%;
     background-color: cadetblue;
     display: flex;
+    box-sizing: border-box;
+   
+}
+.servp{
+    min-width: 100% !important;
+    height: 20%;
+    background-color: aliceblue;
+    display: flex;
     justify-content: center;
-    
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+.encontraras{
+   padding-left: 5%;
+    line-height: 1.5;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.hogar{
+    background-image: url(img/hogar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.empresarial{
+    background-image: url(img/empresa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cctv{
+    background-image: url(img/cctv.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.gps{
+    background-image: url(img/gps.png);
+    background-position: center;
+    background-size: cover;
 }
 main{
       position: relative;
       z-index: 1;
     background: white;
 }
+
+
+/*Empieza hogar */
+.desc{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+.hogardesp{
+    width: 100%;
+    padding: 2.5%;
+    box-sizing: border-box;
+}
+
 footer {
   /* place on the bottom */
   position: sticky;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  
 
   background: #252a47;
   display: grid;

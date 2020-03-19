@@ -8,22 +8,21 @@
   <meta name="description" content="GP Alarmas">
   <meta name="author" content="SitePoint">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://use.fontawesome.com/5ea49d94f2.js"></script>
   <link rel="stylesheet" href="estilo.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto+Slab&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
 <nav class="topnav" id="myTopnav">
   <a href="#home" class="active">GP Alarmas</a>
-  <a href="#news">Nosotros</a>
-  <a href="#contact">CCTV</a>
-  <a href="#about">Control de Acceso</a>
-  <a href="#about">GPS</a>
-  <a href="#about">Clientes</a>
-  <a href="#about">Empleo</a>
-  <a href="#about">Contacto</a>
+  <a href="hogar.html">Hogar</a>
+  <a href="empresarial.html">Empresarial</a>
+  <a href="cctv.html">CCTV</a>
+  <a href="gps.html">GPS</a>
+  <a href="promo.html">Promociones</a>
+  <a href="#footer">Contacto</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
@@ -39,43 +38,55 @@
 <h1 class="flex">
     Acerca de Nosotros
 </h1>
-<div class="nosfull">
-    <p class="nos">
-    GP ALARMAS es una empresa mexicana comprometida en la seguridad de las personas así como de sus bienes patrimoniales, comerciales, industriales o institucionales.
+<section class="nosfull">
+    <article class="nos">
+    GP ALARMAS es una empresa mexicana comprometida en la seguridad de las personas así como de sus bienes patrimoniales, comerciales, industriales o institucionales.<br><br>
 
-    Constituida legalmente desde hace más de 20 años, cumpliendo con la normatividad que marca las Reglamentaciones Gubernamentales, Estatales y Federales.
+    Constituida legalmente desde hace más de 20 años, cumpliendo con la normatividad que marca las Reglamentaciones Gubernamentales, Estatales y Federales.<br><br>
 
-    Con nosotros encontrarás:
-
-    Equipos de Seguridad de la más alta calidad.
-    Servicio de Sistema de Monitoreo operando desde nuestra propia Central de Alarmas las 24 horas los 365 días del año.
-    Personal calificado de apoyo, le cuida y da asistencia inmendiata en casos de instrusión, emergencia médica, incendio u auxilio.
-    El mejor precio del mercado
-
+    Con nosotros encontrarás:<br><br>
+    
+    <b class="encontraras">• Equipos de Seguridad de la más alta calidad.<br>
+    • Servicio de Sistema de Monitoreo operando desde nuestra propia Central de Alarmas las 24 horas los 365 días del año.<br>
+    • Personal calificado de apoyo, le cuida y da asistencia inmendiata en casos de instrusión, emergencia médica, incendio u auxilio<br>
+    • El mejor precio del mercado<br><br>
+   </b>
     GP ALARMAS es tu mejor opción en Sistemas de Alarma y Servicio de Monitoreo
 
     GP ALARMAS
     SEGUNDO A SEGUNDO CONTIGO
-    </p>
+    </article>
     <img src="img/Modern_House_Concept_by_imonkey89.jpg" class="nosimg">
     
-</div>
+</section>
  <h1 class="flex">
     Nuestros Servicios
 </h1>
 <article class="serv">
-    <section class="servicio">
-        <p class="servp">Seguridad del Hogar</p>
-    </section>
-    <section class="servicio">
-        <p class="servp">Seguridad Empresarial</p>
-    </section>
-    <section class="servicio">
-       <p class="servp">CCTV</p>
-    </section>
-    <section class="servicio">
-       <p class="servp">GPS</p>
-    </section>
+    <a href="hogar.html" class="link ">
+        <section class="servicio hogar">
+            <p class="servp">Seguridad del Hogar</p>
+        </section>
+    </a>
+    
+    <a href="empresarial.html" class="link ">
+        <section class="servicio empresarial">
+            <p class="servp">Seguridad Empresarial </p>
+        </section>
+    </a>
+    
+    <a href="cctv.html" class="link ">
+        <section class="servicio cctv">
+           <p class="servp">CCTV</p>
+        </section>
+    </a>
+    
+    <a href="gps.html" class="link ">
+        <section class="servicio gps">
+           <p class="servp">GPS</p>
+        </section>
+    </a>
+    
 </article>
 <h1 class="flex">
    Clientes
@@ -115,6 +126,7 @@
        
         </adress>
  </footer>
+    <div id="footer"></div>
   <script src="js/scripts.js"></script>
 </body>
 </html>
